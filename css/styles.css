@@ -120,7 +120,7 @@ section.hero picture img {
     height: 100%;
 }
 
-.hero-content h1 {
+.hero-content h2 {
     max-width: 495px;
     color: #FFF;
     font-size: 50px;
@@ -184,7 +184,7 @@ section.best-sellers {
     padding-top: 80px;
 }
 
-section.best-sellers h1 {
+section.best-sellers h2 {
     text-align: center;
     font-size: 34px;
     letter-spacing: 0.85px;
@@ -474,7 +474,7 @@ footer .copyright-text {
     }
 
 
-    .hero-content h1 {
+    .hero-content h2 {
         font-size: 40px;
         letter-spacing: 1px;
         line-height: 46px;
@@ -498,7 +498,7 @@ footer .copyright-text {
         padding-top: 50px;
     }
     
-    section.best-sellers h1 {
+    section.best-sellers h2 {
         font-size: 28px;
         letter-spacing: 0.7px;
         line-height: 38px;
