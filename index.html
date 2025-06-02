@@ -56,9 +56,11 @@
         
         <section class="hero">
 
-            <img class="desktop" src="images/Hero_Desktop.jpg">
-            <img class="mobile" src="images/Hero_Mobile.jpg">
-            <img class="tablet" src="images/Hero_Tablet.jpg">
+            <picture>
+                <source media="(min-width: 960px)" srcset="images/Hero_Desktop.jpg">
+                <source media="(min-width: 579px)" srcset="images/Hero_Tablet.jpg">
+                <img src="images/Hero_Mobile.jpg" alt="VR Headsets Hero Image" style="width: 100%; height: auto;">
+            </picture>
 
            
             <div class="hero-content">
