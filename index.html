@@ -27,7 +27,8 @@
 
         <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
         <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,600,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" defer href="/css/styles.css">
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="preload" as="image" href="images/Hero_Desktop.webp" type="image/webp">
         <!-- <link rel="stylesheet" type="text/css" href="/css/slick.css"/> -->
         <!-- Google Tag Manager -->
         <script defer>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -76,10 +77,10 @@
         
         <section class="hero">
 
-            <picture>
-                <source media="(min-width: 960px)" srcset="images/Hero_Desktop.webp">
-                <source media="(min-width: 579px)" srcset="images/Hero_Tablet.webp">
-                <img src="images/Hero_Mobile.webp" alt="VR Headsets Hero Image" fetchpriority="high" style="width: 100%; height: auto;">
+           <picture>
+                <source media="(min-width: 960px)" srcset="images/Hero_Desktop.webp" type="image/webp">
+                <source media="(min-width: 579px)" srcset="images/Hero_Tablet.webp" type="image/webp">
+                <img src="images/Hero_Mobile.webp" alt="VR Headsets Hero Image" fetchpriority="high" width="1440" height="600" style="width: 100%; height: auto;">
             </picture>
 
            
