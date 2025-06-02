@@ -2,23 +2,23 @@
 
 @font-face {
     font-family: 'Heebo';
-    src: url('../fonts/Heebo-Regular.ttf') format('truetype');
+    src: url('../fonts/Heebo-Regular.woff2') format('truetype');
 }
 @font-face {
     font-family: 'Heebo';
-    src: url('../fonts/Heebo-Bold.ttf') format('truetype');
+    src: url('../fonts/Heebo-Bold.woff2') format('truetype');
 }
 @font-face {
     font-family: 'Heebo';
-    src: url('../fonts/Heebo-Medium.ttf') format('truetype');
+    src: url('../fonts/Heebo-Medium.woff2') format('truetype');
 }
 @font-face {
     font-family: 'Heebo';
-    src: url('../fonts/Heebo-Light.ttf') format('truetype');
+    src: url('../fonts/Heebo-Light.woff2') format('truetype');
 }
 @font-face {
     font-family: 'Heebo';
-    src: url('../fonts/Heebo-Black.ttf') format('truetype');
+    src: url('../fonts/Heebo-Black.woff2') format('truetype');
 }
 
 body {
