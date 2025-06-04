@@ -3,22 +3,31 @@
 @font-face {
     font-family: 'Heebo';
     src: url('../fonts/Heebo-Regular.woff2') format('truetype');
+    font-display: swap;
+
 }
 @font-face {
     font-family: 'Heebo';
     src: url('../fonts/Heebo-Bold.woff2') format('truetype');
+    font-display: swap;
+
 }
 @font-face {
     font-family: 'Heebo';
     src: url('../fonts/Heebo-Medium.woff2') format('truetype');
+    font-display: swap;
+
 }
 @font-face {
     font-family: 'Heebo';
     src: url('../fonts/Heebo-Light.woff2') format('truetype');
+    font-display: swap;
+
 }
 @font-face {
     font-family: 'Heebo';
     src: url('../fonts/Heebo-Black.woff2') format('truetype');
+    font-display: swap;
 }
 
 body {
